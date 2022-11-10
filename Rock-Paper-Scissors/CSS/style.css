@@ -1,13 +1,35 @@
+@font-face {
+    font-family: "dilo";
+    src: url("../Fonts/DiloWorld-mLJLv.ttf");
+}
+
+@font-face {
+    font-family: "robus";
+    src: url("../Fonts/Robus-BWqOd.otf");
+}
+
 body{
     margin: 0;
     padding: 0;
     background: #393E46;
-
+    color: #fff;
     font-family: sans-serif;
 }
 
+
 .header{
     text-align: center;
+}
+
+.header h1{
+    font-family: "dilo";
+    font-size: 48px;
+}
+
+.ruler h1{
+    font-family: "robus";
+    font-size: 36px;
+    letter-spacing: 1px;
 }
 .card{
     margin: 3rem 2rem;
