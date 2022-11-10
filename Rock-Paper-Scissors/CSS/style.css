@@ -1,0 +1,77 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #393E46;
+
+    font-family: sans-serif;
+}
+
+.header{
+    text-align: center;
+}
+.card{
+    margin: 3rem 2rem;
+    overflow: hidden;
+    width: 10rem;
+    height: 13rem;
+    background: #6D9886;
+}
+
+.card:hover{
+    cursor: pointer;
+}
+
+
+
+.ruler{
+    display: flex;
+    
+}
+
+.human , .computer{
+    text-align: center;
+}
+
+.card-holder{
+    display: flex;
+    border-right: .2rem  solid #F2E7D5;
+}
+
+.card-name{
+    overflow: hidden;
+    text-align: center;
+    width: 10rem;
+    height: 13rem;
+    position: absolute;
+}
+
+.card-name p {
+    font-family: sans-serif;
+    color: #F2E7D5;
+    position: relative;
+    font-weight: 900;
+    
+    font-size: 76px;
+    letter-spacing: 1px;
+    transform: rotate(315deg);
+    opacity: 0.3;
+}
+
+
+#rock p , .rock p{
+    top: 3%;
+    left: -23%;
+    font-size: 79px;
+}
+
+#paper p , .paper p{
+    top: 9%;
+    left: -21%;
+    font-size: 71px;
+}
+
+#scissors p , .scissors p{
+    top: 13%;
+    left: -19%;
+    font-size: 65px;
+}
